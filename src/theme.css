@@ -4,6 +4,7 @@
   --theme-page-text: #000;
   --theme-card-color: #E9E9E9;
   --theme-btn-text: #FFF;
+  --theme-btn-hover-color: #9300d7;
 }
 
 .dark {
@@ -12,4 +13,5 @@
   --theme-page-text: #FDFDFD;
   --theme-card-color: #292929;
   --theme-btn-text: #121212;
+  --theme-btn-hover-color: #cc5dff;
 }

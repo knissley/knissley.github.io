@@ -1,0 +1,44 @@
+.hero-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .1em;
+  width: 40%;
+}
+
+.hero-header {
+  color: var(--theme-accent-color);
+  margin-bottom: -9px;
+}
+
+.hero-subtitle {
+  font-weight: 600;
+}
+
+.hero-socials-container {
+  display: flex;
+  gap: .6em;
+  margin-top: .8em;
+}
+
+.social-icon {
+  font-size: 1.25em;
+  opacity: .75;
+  transition: all 175ms ease;
+}
+
+.social-icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.hero-btn {
+  width: 50%;
+  padding: .8em .25em;
+  font-size: 1em;
+}
+
+.hero-btn:hover {
+  cursor: pointer;
+  background-color: var(--theme-btn-hover-color);
+}

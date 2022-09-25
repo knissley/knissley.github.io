@@ -2,6 +2,7 @@ import React, { FC, useState } from 'react';
 import './theme.css';
 import './App.css';
 import NavHeader from './Navigation/NavHeader';
+import Hero from './Hero/Hero';
 
 interface Props {}
 
@@ -15,11 +16,9 @@ const App:FC<Props> = () => {
       </header>
 
       <main>
-        {/*
           <Hero />
-          <Projects />
-          <AboutMe />
-        */}
+          {/* <Projects />
+          <AboutMe /> */}
       </main>
 
       <footer>
