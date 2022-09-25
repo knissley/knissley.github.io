@@ -1,0 +1,15 @@
+.light {
+  --theme-accent-color: #AD00FF;
+  --theme-page-background: #FFF;
+  --theme-page-text: #000;
+  --theme-card-color: #E9E9E9;
+  --theme-btn-text: #FFF;
+}
+
+.dark {
+  --theme-accent-color: #C548FF;
+  --theme-page-background: #121212;
+  --theme-page-text: #FDFDFD;
+  --theme-card-color: #292929;
+  --theme-btn-text: #121212;
+}
