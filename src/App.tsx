@@ -11,7 +11,7 @@ const App:FC<Props> = () => {
   return (
     <div className={`app ${theme}`}>
       <header>
-        <NavHeader />
+        <NavHeader theme={theme} setTheme={setTheme} />
       </header>
 
       <main>
