@@ -1,0 +1,58 @@
+.job-title {
+  color: var(--theme-page-text);
+  margin: 0;
+  margin-bottom: -8px;
+  display: block;
+  font-size: 1.3em;
+}
+
+.job-company {
+  color: var(--theme-page-text);
+  opacity: .8;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.job-list-item {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.job-list-item:hover {
+  cursor: pointer;
+}
+
+.job-dates {
+  position: absolute;
+  text-align: right;
+  left: -110%;
+  top: 9px;
+  font-size: .8rem;
+  opacity: .4;
+  width: 100%;
+  /* transform: translateX(-100%); */
+}
+
+.job-information {
+  margin-top: 1em;
+  transition: all 300ms ease;
+  max-width: 50ch;
+}
+
+.job-information.hidden {
+  opacity: 0;
+  height: 0;
+  transform: translateY(-10%);
+}
+
+.job-information.show {
+  opacity: 1;
+  height: 100%;
+  transform: translateY(0%);
+}
+
+.job-bullet-points {
+  padding-left: 1.3em;
+  list-style: disc;
+  font-size: .9rem;
+}

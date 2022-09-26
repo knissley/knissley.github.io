@@ -7,3 +7,7 @@
 .hero-image {
   width: 100%;
 }
+
+.hero-image:hover {
+  cursor: pointer;
+}
