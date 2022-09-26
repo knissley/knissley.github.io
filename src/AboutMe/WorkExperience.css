@@ -1,0 +1,16 @@
+.work-experience {
+  border-left: 2px solid var(--theme-accent-color);
+  margin-left: 8em;
+}
+
+.work-experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-experience-list {
+  padding-left: .75em;
+  list-style-image: url('../assets/Ellipse\ 5.png');
+}

@@ -2,9 +2,22 @@ import React, { FC } from 'react';
 import './HeroContent.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { motion } from 'framer-motion';
 
 
 interface Props {}
+
+const animationOptions = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+  },
+  transition: {
+    duration: 1.75,
+  },
+}
 
 const HeroContent:FC<Props> = () => {
 
@@ -13,18 +26,28 @@ const HeroContent:FC<Props> = () => {
     <div className='hero-content-container'>
       <div>
         <h1 className='hero-header'>Kyle Nissley</h1>
-        <span className='hero-subtitle'>Software Engineer</span>
-        <div className='hero-socials-container'>
-          <FontAwesomeIcon className='social-icon' icon={faGithub} />
-          <FontAwesomeIcon className='social-icon' icon={faLinkedin} />
-        </div>
+        <motion.div
+          initial={animationOptions.initial}
+          animate={animationOptions.animate}
+          transition={animationOptions.transition}
+        >
+          <span className='hero-subtitle'>Software Engineer</span>
+          <div className='hero-socials-container'>
+            <FontAwesomeIcon className='social-icon' icon={faGithub} />
+            <FontAwesomeIcon className='social-icon' icon={faLinkedin} />
+          </div>
+        </motion.div>
       </div>
-      <p>
+      <motion.p
+        initial={animationOptions.initial}
+        animate={animationOptions.animate}
+        transition={animationOptions.transition}
+      >
         Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet..
-      </p>
-      <button className='btn hero-btn'>
+      </motion.p>
+      <motion.button whileHover={{scale: 1.01}} className='btn hero-btn'>
         See My Work
-      </button>
+      </motion.button>
     </div>
   )
 };

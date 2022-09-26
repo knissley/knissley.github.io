@@ -1,0 +1,29 @@
+.aboutme-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2em;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.aboutme-container h2,
+.aboutme-container h3 {
+  color: var(--theme-accent-color);
+}
+
+.aboutme-bio {
+  text-align: center;
+  max-width: 100ch;
+}
+
+.about-me-btn {
+  width: 33%;
+  padding: .8em .25em;
+  font-size: 1em;
+}
+
+.about-me-btn:hover {
+  cursor: pointer;
+  background-color: var(--theme-btn-hover-color);
+}

@@ -4,6 +4,9 @@ import './App.css';
 import NavHeader from './Navigation/NavHeader';
 import Hero from './Hero/Hero';
 import Projects from './Projects/Projects';
+import AboutMe from './AboutMe/AboutMe';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 
 interface Props {}
 
@@ -19,11 +22,11 @@ const App:FC<Props> = () => {
       <main>
           <Hero />
           <Projects />
-          {/* <AboutMe /> */}
+          <AboutMe />
       </main>
 
-      <footer>
-        {/* <Footer /> */}
+      <footer className='footer'>
+        <span><FontAwesomeIcon style={{fontSize: '.9rem'}} icon={faCopyright} /> Kyle Nissley</span>
       </footer>
     </div>
   );

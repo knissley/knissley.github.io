@@ -4,6 +4,7 @@ import { project as ProjectType } from '../types/project';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../assets/dummy-project.jpg';
+import { motion } from 'framer-motion';
 
 interface Props {
   project: ProjectType;
@@ -24,7 +25,12 @@ const ProjectCard:FC<Props> = ({project}) => {
 
 
   return (
-    <div className='card-container'>
+    <motion.div whileHover={{
+      scale: 1,
+      translateY: -5,
+      transition: { duration: .1},
+      cursor: 'pointer',
+    }} className='card-container'>
       <div className='card-image-container'>
         <img className={`card-image ${objectFitClass}`} alt={project.title} src={project.imageUrl || image} />
       </div>
@@ -38,7 +44,7 @@ const ProjectCard:FC<Props> = ({project}) => {
           <FontAwesomeIcon className='github-logo' icon={faGithub} />
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
