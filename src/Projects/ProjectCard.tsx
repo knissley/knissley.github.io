@@ -19,7 +19,7 @@ const ProjectCard:FC<Props> = ({project}) => {
     if (idx === technologies.length - 1) {
       technologiesString += technology;
     } else {
-      technologiesString += `${technology}, `
+      technologiesString += `${technology}, `;
     }
   });
 
