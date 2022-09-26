@@ -7,7 +7,7 @@
 }
 
 .hero-header {
-  color: var(--theme-accent-color);
+  color: var(--theme-h1-color);
   margin-bottom: -14px;
 }
 

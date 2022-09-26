@@ -45,9 +45,9 @@ const HeroContent:FC<Props> = () => {
       >
         Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet..
       </motion.p>
-      <motion.button whileHover={{scale: 1.01}} className='btn hero-btn'>
+      <button className='btn hero-btn'>
         See My Work
-      </motion.button>
+      </button>
     </div>
   )
 };

@@ -10,7 +10,7 @@ const HeroImage:FC<Props> = () => {
 
   return (
     <div className='hero-image-container'>
-      <motion.img drag dragConstraints={{ top: -50, left: -50, right: 50, bottom: 50}} className='hero-image' alt='Kyle Nissley' src={image} />
+      <motion.img drag dragConstraints={{ top: -25, left: -25, right: 5, bottom: 25}} className='hero-image' alt='Kyle Nissley' src={image} />
     </div>
   )
 };

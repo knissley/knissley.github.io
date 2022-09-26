@@ -4,17 +4,13 @@
   flex-direction: column;
   padding: 0 2em;
   max-width: 1600px;
-  margin: 0 auto;
-}
-
-.aboutme-container h2,
-.aboutme-container h3 {
-  color: var(--theme-accent-color);
+  margin: 2em auto;
 }
 
 .aboutme-bio {
   text-align: center;
   max-width: 100ch;
+  margin-bottom: 2em;
 }
 
 .about-me-btn {

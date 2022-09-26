@@ -19,7 +19,7 @@ const ExperienceListItem:FC<Props> = ({ job }) => {
     <li className='job-list-item' onClick={handleClick} >
       <span className='job-title'>{job.title}</span>
       <span className='job-company'>{job.company}</span>
-      <motion.span initial={{opacity: 0, translateX: -10}} whileInView={{opacity: .4, translateX: 0}} viewport={{once: true}}  className='job-dates'>{dateString}</motion.span>
+      <motion.span initial={{opacity: 0, translateX: -10}} whileInView={{opacity: .65, translateX: 0}} viewport={{once: true}}  className='job-dates'>{dateString}</motion.span>
       {
         active && (
         <div className={'job-information'}>

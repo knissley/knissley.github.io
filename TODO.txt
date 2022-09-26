@@ -1,0 +1,5 @@
+make job dates easier to read on light mode - DONE
+
+animate project cards to fill container -- or just be bigger... container may end up expanding with more projects added
+
+change color of timeline dot to new purple color

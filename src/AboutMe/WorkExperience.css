@@ -1,6 +1,8 @@
 .work-experience {
   border-left: 2px solid var(--theme-accent-color);
   margin-left: 8em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .work-experience-container {

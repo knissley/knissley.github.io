@@ -28,7 +28,7 @@
   left: -110%;
   top: 9px;
   font-size: .8rem;
-  opacity: .4;
+  opacity: var(--theme-date-opacity);
   width: 100%;
   /* transform: translateX(-100%); */
 }
