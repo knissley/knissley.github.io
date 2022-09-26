@@ -3,3 +3,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.hero-image {
+  width: 100%;
+}

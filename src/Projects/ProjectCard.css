@@ -1,0 +1,74 @@
+.card-image {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.card-container {
+  background-color: var(--theme-card-color);
+  border-radius: 4px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 511px;
+  transition: transform 175ms cubic-bezier(0.75, 0.15, 0.88, 1.96);
+  box-shadow: 1px 1px 4px rgba(0,0,0, .25);
+}
+
+.card-container:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.card-image-container {
+  height: 50%;
+}
+
+.card-info-container {
+  height: 50%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-sub-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-sub-details span {
+  font-size: 12px;
+  font-weight: 300;
+  opacity: .85;
+}
+
+.github-logo {
+  font-size: 1.2em;
+  opacity: .9;
+  transition: all 175ms ease;
+}
+
+.github-logo:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.card-info-container h3 {
+  margin: 0;
+  margin-top: .25em;
+}
+
+.card-info-container p {
+  margin: 0;
+}

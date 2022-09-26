@@ -8,11 +8,12 @@
 
 .hero-header {
   color: var(--theme-accent-color);
-  margin-bottom: -9px;
+  margin-bottom: -14px;
 }
 
 .hero-subtitle {
   font-weight: 600;
+  opacity: .8;
 }
 
 .hero-socials-container {

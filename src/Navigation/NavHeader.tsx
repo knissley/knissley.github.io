@@ -20,24 +20,26 @@ const NavHeader:FC<Props> = ({theme, setTheme}) => {
 
   return (
     <nav className='header'>
-      { !isLargerScreen && (
-        <span>Burger</span>
-      )}
-      {
-        isLargerScreen && (
-          <ul className='nav-list'>
-            <li><a className='nav-link' href='#'>Home</a></li>
-            <li><a className='nav-link' href='#'>Projects</a></li>
-            <li><a className='nav-link' href='#'>About Me</a></li>
-          </ul>
-        )
-      }
-      {
-        theme === 'light' ?
-          <FontAwesomeIcon onClick={handleClick} icon={faMoon} />
-        :
-          <FontAwesomeIcon onClick={handleClick} icon={faSun} />
-      }
+      <div className='header-container'>
+        { !isLargerScreen && (
+          <span>Burger</span>
+        )}
+        {
+          isLargerScreen && (
+            <ul className='nav-list'>
+              <li><a className='nav-link' href='#'>Home</a></li>
+              <li><a className='nav-link' href='#'>My Work</a></li>
+              <li><a className='nav-link' href='#'>About Me</a></li>
+            </ul>
+          )
+        }
+        {
+          theme === 'light' ?
+            <FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faMoon} />
+          :
+            <FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faSun} />
+        }
+      </div>
     </nav>
   )
 }

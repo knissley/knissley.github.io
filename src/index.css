@@ -28,3 +28,7 @@ code {
   font-weight: 600;
   transition: all 175ms ease;
 }
+
+h1 {
+  font-size: 4rem;
+}

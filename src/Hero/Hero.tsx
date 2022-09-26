@@ -9,10 +9,10 @@ const Hero:FC<Props> = () => {
 
 
   return (
-    <div className='hero-container'>
+    <section className='hero-container'>
       <HeroContent />
       <HeroImage />
-    </div>
+    </section>
   )
 };
 
