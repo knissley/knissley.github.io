@@ -15,7 +15,7 @@ const AboutMe:FC<Props> = () => {
       <p className='aboutme-bio'>When I'm not coding, I love playing video games (ask me about how my brother and I almost made a semi-pro team in high school), hiking, and traveling. My first passion was to work in the sports industry, specifically in the front office of a professional team. My track record on DraftKings made me reconsider my team-building acumen.</p>
       <WorkExperience />
       <h3>Let's get in touch</h3>
-      <button className='btn about-me-btn'>Contact Me</button>
+      <button className='btn about-me-btn'><a href='mailto:knissley97@gmail.com'>Contact Me</a></button>
     </div>
   )
 };

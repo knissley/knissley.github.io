@@ -44,7 +44,7 @@ const HeroContent:FC<Props> = () => {
         animate={animationOptions.animate}
         transition={animationOptions.transition}
       >
-        Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet..
+        Recent Hack Reactor grad skilled in the MERN stack, with a passion for mobile development and system design.
       </motion.p>
       <button className='btn hero-btn'>
         <a href="#my-work">See My Work</a>

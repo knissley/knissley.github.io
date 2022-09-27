@@ -84,6 +84,12 @@
   background-color: #9900e0;
 }
 
+.header-contact-btn a,
+.header-contact-btn a:visited {
+  color: #FDFDFD;
+  text-decoration: none;
+}
+
 .header-btn-container {
   display: flex;
   align-items: center;
