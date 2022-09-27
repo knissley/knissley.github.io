@@ -1,15 +1,19 @@
 make job dates easier to read on light mode - DONE
 
-page change for projects
-
-change color of timeline dot to new purple color
-
 animate the job descriptions - DONE
 
-fix hero spacing on small screen
+fix hero spacing on small screen - DONE
 
 dot spacing on timeline is off - DONE
 
-check the spacing of deployed url icon on smaller screens
+check the spacing of deployed url icon on smaller screens - DONE
 
-progress indicator below carousel
+progress indicator below carousel - DONE
+
+page change for projects - DONE
+
+proper header for projects page
+
+change color of timeline dot to new purple color
+
+copy for hero section

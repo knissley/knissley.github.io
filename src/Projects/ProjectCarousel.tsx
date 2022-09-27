@@ -81,6 +81,15 @@ const ProjectCarousel:FC<Props> = () => {
       <div className='prev' onClick={() => paginate(-1)}>
           <FontAwesomeIcon className='prev-icon' icon={faCaretLeft} />
       </div>
+      <div className='progress-container'>
+          {
+            projects.map((project, idx) => (
+              <div onClick={() => {
+                setPage(() => [idx, direction])
+              }} className={`progress-indicator ${idx === projectIndex ? 'active' : ''}`}></div>
+            ))
+          }
+      </div>
     </>
   )
 };
