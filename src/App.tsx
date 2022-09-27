@@ -22,7 +22,7 @@ const App:FC<Props> = () => {
       <main>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/projects/:project_title' element={<ProjectPage/>} />
+          <Route path='/projects/:id' element={<ProjectPage/>} />
         </Routes>
       </main>
 

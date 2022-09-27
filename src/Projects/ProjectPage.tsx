@@ -12,21 +12,37 @@ type ProjectPageParams = {
 const ProjectPage:FC<Props> = () => {
   let { id:projectId } = useParams<ProjectPageParams>();
 
-  const project = projects.find((project) => project.id = Number(projectId)) || projects[0];
+  console.log(projectId);
+
+  const project = projects.find((project) => project.id === Number(projectId)) || projects[0];
+
+  console.log(project);
 
   return (
     <div className='project-page-container'>
       <div className='project-container'>
         <h1 className='project-header'>{project.title}</h1>
         <div className='project-image-container'>
-          <img className='project-image' alt='' src={project.images[0]} />
+          <img className={`project-image ${project.imageOrientation}`} alt='' src={project.images[0]} />
         </div>
         {
           project.longDescription.map((paragraph, idx) => <p className='description' key={idx}>{paragraph}</p>)
         }
         <div className='project-buttons-container'>
-          <button className='btn project-page-btn'>See it Live</button>
-          <button className='btn project-page-btn'>Github</button>
+          {
+            project.deployedUrl !== '' && (
+              <button className='btn project-page-btn'>
+                <a className='project-page-anchor' href={project.deployedUrl} target='_blank' rel='noreferrer'>
+                  See it Live
+                </a>
+              </button>
+            )
+          }
+          <button className='btn project-page-btn'>
+            <a className='project-page-anchor' href={project.githubUrl} target='_blank' rel='noreferrer'>
+              Github
+            </a>
+          </button>
         </div>
       </div>
     </div>
