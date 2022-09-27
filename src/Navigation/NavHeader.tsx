@@ -38,7 +38,7 @@ const NavHeader:FC<Props> = ({theme, setTheme, projectPage}) => {
             :
             (
               <ul className='nav-list'>
-                <li><Link to='/' className='nav-link'>Home</Link></li>
+                <li><Link to='/portfolio' className='nav-link'>Home</Link></li>
               </ul>
             )
           )

@@ -30,7 +30,7 @@ const MobileHeader:FC<Props> = ({ projectPage }) => {
           :
           (
             <ul className='mobile-list'>
-              <li onClick={handleClick} className='mobile-list-item'><Link to='/' >Home</Link></li>
+              <li onClick={handleClick} className='mobile-list-item'><Link to='/portfolio' >Home</Link></li>
             </ul>
           )
         }

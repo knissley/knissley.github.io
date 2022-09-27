@@ -40,7 +40,7 @@ const ProjectCard:FC<Props> = ({project}) => {
       </div>
       <div className='card-info-container'>
         <div>
-          <Link className='project-page-link' to={`/projects/${project.id}`}>
+          <Link className='project-page-link' to={`/portfolio/projects/${project.id}`}>
             <h3>{project.title}</h3>
           </Link>
           <p>{project.description}</p>

@@ -77,6 +77,8 @@
 .header-contact-btn {
   padding: .5em 1em;
   background-color: #8b00cb;
+  width: 100%;
+  white-space: nowrap;
 }
 
 .header-contact-btn:hover {
