@@ -9,7 +9,7 @@ const projects:project[] = [
     id: 1,
     title: 'Trail Companions',
     description: 'A full stack web application utilizing APIs such as the Google Maps and Calendar APIs to help hikers find their new favorite trails - and invite their friends!',
-    longDescription: [],
+    longDescription: ['Developed in a team with 7 other engineers, Trail Companions is a full stack web application built with Next.js. This application utilizes Google Maps API, Google Calendars API, Firebase Authentication and AWS EC2 instances.', 'In this project I was the UI/UX design lead and created the wireframes and mockups of the application as well as instituted a styling guide for the team to follow.', 'I also led the charge on user authentication and Google API integrations. I utilized Firebase and Google Auth for the login process, as well as a routeguarding component across the application to redirect unauthorized traffic.'],
     images: [TrailCompanionsImage],
     imageOrientation: 'landscape',
     deployedUrl: '',

@@ -19,10 +19,10 @@ const ProjectPage:FC<Props> = () => {
       <div className='project-container'>
         <h1 className='project-header'>{project.title}</h1>
         <div className='project-image-container'>
-        <img className='project-image' alt='' src={project.images[0]} />
+          <img className='project-image' alt='' src={project.images[0]} />
         </div>
         {
-          project.longDescription.map((paragraph, idx) => <p key={idx}>{paragraph}</p>)
+          project.longDescription.map((paragraph, idx) => <p className='description' key={idx}>{paragraph}</p>)
         }
         <div className='project-buttons-container'>
           <button className='btn project-page-btn'>See it Live</button>

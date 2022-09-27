@@ -63,3 +63,13 @@
   cursor: pointer;
   background-color: var(--theme-btn-hover-color);
 }
+
+.description {
+  max-width: 660px;
+}
+
+@media screen and (max-width: 700px) {
+  .project-header {
+    font-size: 3em;
+  }
+}
