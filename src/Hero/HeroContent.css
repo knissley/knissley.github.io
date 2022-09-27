@@ -6,6 +6,34 @@
   width: 40%;
 }
 
+@media screen and (max-width: 1120px) {
+  .hero-content-container {
+    order: 2;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5em;
+  }
+
+  .subtitle-socials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-header {
+    font-size: 3em;
+  }
+
+  .hero-content-container p {
+    text-align: center;
+    max-width: 40ch;
+  }
+
+  .hero-btn {
+    max-width: 300px;
+  }
+}
+
 .hero-header {
   color: var(--theme-h1-color);
   margin-bottom: -14px;

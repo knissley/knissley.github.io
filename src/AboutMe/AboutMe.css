@@ -14,9 +14,10 @@
 }
 
 .about-me-btn {
-  width: 33%;
+  width: 100%;
   padding: .8em .25em;
   font-size: 1em;
+  max-width: 270px;
 }
 
 .about-me-btn:hover {

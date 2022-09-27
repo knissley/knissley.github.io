@@ -28,7 +28,7 @@ const ProjectCard:FC<Props> = ({project}) => {
     <motion.div whileHover={{
       scale: 1,
       translateY: -5,
-      transition: { duration: .1, ease: [.5, .75, .75, 1]},
+      transition: { duration: .175},
       cursor: 'pointer',
     }} className='card-container'>
       <div className='card-image-container'>

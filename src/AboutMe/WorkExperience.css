@@ -5,6 +5,12 @@
   margin-bottom: 2em;
 }
 
+@media screen and (max-width: 880px) {
+  .work-experience {
+    margin: 2em auto;
+  }
+}
+
 .work-experience-container {
   display: flex;
   flex-direction: column;

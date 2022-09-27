@@ -30,6 +30,7 @@ const HeroContent:FC<Props> = () => {
           initial={animationOptions.initial}
           animate={animationOptions.animate}
           transition={animationOptions.transition}
+          className='subtitle-socials-container'
         >
           <span className='hero-subtitle'>Software Engineer</span>
           <div className='hero-socials-container'>

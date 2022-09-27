@@ -18,19 +18,25 @@
   margin-bottom: 2em;
 }
 
-.job-list-item:hover {
-  cursor: pointer;
-}
-
 .job-dates {
   position: absolute;
   text-align: right;
-  left: -110%;
+  left: -107%;
   top: 9px;
   font-size: .8rem;
   opacity: var(--theme-date-opacity);
   width: 100%;
   /* transform: translateX(-100%); */
+}
+
+@media screen and (max-width: 880px) {
+  .job-dates {
+    position: relative;
+    display: block;
+    left: 0;
+    text-align: left;
+    top: 0;
+  }
 }
 
 .job-information {
