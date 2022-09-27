@@ -2,16 +2,26 @@ import React, { FC } from 'react';
 import Hero from './Hero/Hero';
 import Projects from './Projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
+import NavHeader from './Navigation/NavHeader';
 
-interface Props {};
+interface Props {
+  theme: string;
+  setTheme: Function;
+};
 
-const HomePage:FC<Props> = () => {
+const HomePage:FC<Props> = ({ theme, setTheme }) => {
 
   return (
     <>
-      <Hero />
-      <Projects />
-      <AboutMe />
+      <header>
+        <NavHeader projectPage={false} theme={theme} setTheme={setTheme} />
+      </header>
+
+      <main>
+        <Hero />
+        <Projects />
+        <AboutMe />
+      </main>
     </>
   )
 };

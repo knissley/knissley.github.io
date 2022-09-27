@@ -2,10 +2,13 @@ import React, { FC, useState } from 'react';
 import './MobileHeader.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
-interface Props {};
+interface Props {
+  projectPage: boolean;
+};
 
-const MobileHeader:FC<Props> = () => {
+const MobileHeader:FC<Props> = ({ projectPage }) => {
   const [isOpen, setOpen] = useState(false);
 
   const handleClick = () => {
@@ -16,11 +19,21 @@ const MobileHeader:FC<Props> = () => {
     <>
       <FontAwesomeIcon onClick={handleClick} className='menu-icon' icon={faBars} />
       <div className={`background ${isOpen ? 'show' : 'hide'}`}>
-        <ul className='mobile-list'>
-          <li onClick={handleClick} className='mobile-list-item'><a href='#'>Home</a></li>
-          <li onClick={handleClick} className='mobile-list-item'><a href='#my-work'>My Work</a></li>
-          <li onClick={handleClick} className='mobile-list-item'><a href='#about-me'>About Me</a></li>
-        </ul>
+        {
+          !projectPage ? (
+            <ul className='mobile-list'>
+              <li onClick={handleClick} className='mobile-list-item'><a href='#'>Home</a></li>
+              <li onClick={handleClick} className='mobile-list-item'><a href='#my-work'>My Work</a></li>
+              <li onClick={handleClick} className='mobile-list-item'><a href='#about-me'>About Me</a></li>
+            </ul>
+          )
+          :
+          (
+            <ul className='mobile-list'>
+              <li onClick={handleClick} className='mobile-list-item'><Link to='/' >Home</Link></li>
+            </ul>
+          )
+        }
       </div>
     </>
   );

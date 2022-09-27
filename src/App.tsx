@@ -1,7 +1,6 @@
 import React, { FC, useState } from 'react';
 import './theme.css';
 import './App.css';
-import NavHeader from './Navigation/NavHeader';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import HomePage from './HomePage';
@@ -15,19 +14,14 @@ const App:FC<Props> = () => {
 
   return (
     <div className={`app ${theme}`}>
-      <header>
-        <NavHeader theme={theme} setTheme={setTheme} />
-      </header>
-
-      <main>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/projects/:id' element={<ProjectPage/>} />
-        </Routes>
-      </main>
+      <Routes>
+        <Route path='/' element={<HomePage theme={theme} setTheme={setTheme} />} />
+        <Route path='/projects/:id' element={<ProjectPage theme={theme} setTheme={setTheme} />} />
+        <Route path='*' />
+      </Routes>
 
       <footer className='footer'>
-        <span><FontAwesomeIcon style={{fontSize: '.9rem'}} icon={faCopyright} /> Kyle Nissley</span>
+        <span>Kyle Nissley <FontAwesomeIcon style={{fontSize: '.9rem'}} icon={faCopyright} /> 2022</span>
       </footer>
     </div>
   );

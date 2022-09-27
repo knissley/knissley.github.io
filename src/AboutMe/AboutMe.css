@@ -30,3 +30,9 @@
   cursor: pointer;
   background-color: var(--theme-btn-hover-color);
 }
+
+.about-me-btn a,
+.about-me-btn a:visited {
+  color: #FDFDFD;
+  text-decoration: none;
+}

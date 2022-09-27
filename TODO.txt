@@ -12,8 +12,8 @@ progress indicator below carousel - DONE
 
 page change for projects - DONE
 
-proper header for projects page
+proper header for projects page - DONE
 
-change color of timeline dot to new purple color
+change color of timeline dot to new purple color - KINDA DONE
 
 copy for hero section
