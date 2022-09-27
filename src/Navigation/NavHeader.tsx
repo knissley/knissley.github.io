@@ -3,6 +3,7 @@ import './NavHeader.css';
 import { useMediaQuery } from 'react-responsive';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+import MobileHeader from './MobileHeader';
 
 interface Props {
   theme: string;
@@ -22,7 +23,7 @@ const NavHeader:FC<Props> = ({theme, setTheme}) => {
     <nav className='header'>
       <div className='header-container'>
         { !isLargerScreen && (
-          <span>Burger</span>
+          <MobileHeader />
         )}
         {
           isLargerScreen && (
