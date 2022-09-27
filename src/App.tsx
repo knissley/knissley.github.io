@@ -15,8 +15,8 @@ const App:FC<Props> = () => {
   return (
     <div className={`app ${theme}`}>
       <Routes>
-        <Route path='/' element={<HomePage theme={theme} setTheme={setTheme} />} />
-        <Route path='/projects/:id' element={<ProjectPage theme={theme} setTheme={setTheme} />} />
+        <Route path='/portfolio' element={<HomePage theme={theme} setTheme={setTheme} />} />
+        <Route path='/portfolio/projects/:id' element={<ProjectPage theme={theme} setTheme={setTheme} />} />
         <Route path='*' />
       </Routes>
 
