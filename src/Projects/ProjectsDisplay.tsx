@@ -10,7 +10,7 @@ interface Props {}
 
 const ProjectsDisplay:FC<Props> = () => {
   const isLargerScreen = useMediaQuery({
-    query: '(min-width: 800px)',
+    query: '(min-width: 900px)',
   });
 
   return (

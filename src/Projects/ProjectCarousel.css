@@ -26,3 +26,25 @@
 .prev-icon {
   color: var(--theme-h1-color);
 }
+
+.progress-container {
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-indicator {
+  height: 7px;
+  width: 21px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--theme-page-text);
+}
+
+.progress-indicator.active {
+  background-color: var(--theme-accent-color);
+}
