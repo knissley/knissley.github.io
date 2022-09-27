@@ -12,7 +12,7 @@ const ProjectsDisplay:FC<Props> = () => {
   return (
     <motion.div initial={{ opacity: 0}} whileInView={{opacity: 1}} viewport={{once:true}} className='projects-display-container'>
       {
-        projects.map(project => <ProjectCard project={project} />)
+        projects.map(project => <ProjectCard key={project.title} project={project} />)
       }
     </motion.div>
   )

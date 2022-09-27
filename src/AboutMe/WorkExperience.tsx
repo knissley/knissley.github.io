@@ -16,7 +16,7 @@ const WorkExperience:FC<Props> = () => {
       <div className='work-experience'>
         <ul className='work-experience-list'>
           {
-            workExperience.map((job) => <ExperienceListItem job={job} />)
+            workExperience.map((job) => <ExperienceListItem key={job.title} job={job} />)
           }
         </ul>
       </div>

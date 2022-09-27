@@ -34,13 +34,13 @@ const NavHeader:FC<Props> = ({theme, setTheme}) => {
           )
         }
         <div className='header-btn-container'>
+          <button className='btn header-contact-btn'>Contact Me</button>
           {
             theme === 'light' ?
               <FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faMoon} />
             :
               <FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faSun} />
           }
-          <button className='btn header-contact-btn'>Contact Me</button>
         </div>
       </div>
     </nav>
