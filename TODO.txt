@@ -4,4 +4,12 @@ page change for projects
 
 change color of timeline dot to new purple color
 
-animate the job descriptions
+animate the job descriptions - DONE
+
+fix hero spacing on small screen
+
+dot spacing on timeline is off - DONE
+
+check the spacing of deployed url icon on smaller screens
+
+progress indicator below carousel

@@ -2,9 +2,11 @@ import React, { FC } from "react";
 import './ProjectCard.css';
 import { project as ProjectType } from '../types/project';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../assets/dummy-project.jpg';
 import { motion } from 'framer-motion';
+import { Link} from 'react-router-dom';
 
 interface Props {
   project: ProjectType;
@@ -25,23 +27,38 @@ const ProjectCard:FC<Props> = ({project}) => {
 
 
   return (
-    <motion.div whileHover={{
+    <motion.div
+      whileHover={{
       scale: 1,
       translateY: -5,
       transition: { duration: .175},
-      cursor: 'pointer',
-    }} className='card-container'>
+      }}
+      className='card-container'
+    >
       <div className='card-image-container'>
-        <img className={`card-image ${objectFitClass}`} alt={project.title} src={project.imageUrl || image} />
+        <img className={`card-image ${objectFitClass}`} alt={project.title} src={project.images[0] || image} />
       </div>
       <div className='card-info-container'>
         <div>
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
+          <Link className='project-page-link' to={`/projects/${project.id}`}>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </Link>
         </div>
         <div className='card-sub-details'>
           <span>{technologiesString}</span>
-          <FontAwesomeIcon className='github-logo' icon={faGithub} />
+          <div className='card-icons-container'>
+            {
+              project.deployedUrl !== '' && (
+                <a className='deployed-url-anchor' href={project.deployedUrl} target='_blank' rel='noreferrer' >
+                  <FontAwesomeIcon className='deployed-url-icon' icon={faLink} />
+                </a>
+              )
+            }
+            <a className='github-anchor' target='_blank' rel='noreferrer' href={project.githubUrl}>
+              <FontAwesomeIcon className='github-logo' icon={faGithub} />
+            </a>
+          </div>
         </div>
       </div>
     </motion.div>

@@ -1,7 +1,9 @@
 export interface project {
+  id: number;
   title: string;
   description: string;
-  imageUrl: string;
+  longDescription: string[];
+  images: string[];
   imageOrientation: string;
   deployedUrl: string;
   githubUrl: string;

@@ -1,0 +1,28 @@
+.next,
+.prev {
+  top: calc(50% - 20px);
+  position: absolute;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 18px;
+}
+
+.next {
+  right: -35px;
+}
+
+.prev {
+  left: -35px;
+}
+
+.next-icon,
+.prev-icon {
+  color: var(--theme-h1-color);
+}
