@@ -47,7 +47,7 @@ const HeroContent:FC<Props> = () => {
         Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet Lorem ipsum dolor imet..
       </motion.p>
       <button className='btn hero-btn'>
-        See My Work
+        <a href="#my-work">See My Work</a>
       </button>
     </div>
   )

@@ -9,7 +9,7 @@ const Projects:FC<Props> = () => {
 
   return (
     <section className='projects-container'>
-      <h2>My Work</h2>
+      <h2 id="my-work">My Work</h2>
       <ProjectsDisplay />
     </section>
   )

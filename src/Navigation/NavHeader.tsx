@@ -28,8 +28,8 @@ const NavHeader:FC<Props> = ({theme, setTheme}) => {
           isLargerScreen && (
             <ul className='nav-list'>
               <li><a className='nav-link' href='#'>Home</a></li>
-              <li><a className='nav-link' href='#'>My Work</a></li>
-              <li><a className='nav-link' href='#'>About Me</a></li>
+              <li><a className='nav-link' href='#my-work'>My Work</a></li>
+              <li><a className='nav-link' href='#about-me'>About Me</a></li>
             </ul>
           )
         }
