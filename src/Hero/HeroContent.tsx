@@ -34,8 +34,8 @@ const HeroContent:FC<Props> = () => {
         >
           <span className='hero-subtitle'>Software Engineer</span>
           <div className='hero-socials-container'>
-            <FontAwesomeIcon className='social-icon' icon={faGithub} />
-            <FontAwesomeIcon className='social-icon' icon={faLinkedin} />
+            <a href='https://github.com/knissley' target='_blank' rel='noreferrer'><FontAwesomeIcon className='social-icon' icon={faGithub} /></a>
+            <a href='https://www.linkedin.com/in/kylenissley/' target='_blank' rel='noreferrer'><FontAwesomeIcon className='social-icon' icon={faLinkedin} /></a>
           </div>
         </motion.div>
       </div>

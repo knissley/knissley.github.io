@@ -49,6 +49,12 @@
   margin-top: .8em;
 }
 
+.hero-socials-container a,
+.hero-socials-container a:visited {
+  color: var(--theme-page-text);
+  text-decoration: none;
+}
+
 .social-icon {
   font-size: 1.25em;
   opacity: .75;

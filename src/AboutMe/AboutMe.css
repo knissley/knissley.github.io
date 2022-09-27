@@ -24,15 +24,16 @@
   padding: .8em .25em;
   font-size: 1em;
   max-width: 270px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.about-me-btn:visited {
+  color: #FDFDFD;
+  text-decoration: none;
 }
 
 .about-me-btn:hover {
   cursor: pointer;
   background-color: var(--theme-btn-hover-color);
-}
-
-.about-me-btn a,
-.about-me-btn a:visited {
-  color: #FDFDFD;
-  text-decoration: none;
 }
