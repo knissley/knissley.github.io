@@ -47,9 +47,9 @@ const NavHeader:FC<Props> = ({theme, setTheme, projectPage}) => {
           <button className='btn header-contact-btn'><a href='mailto:knissley97@gmail.com'>Contact Me</a></button>
           {
             theme === 'light' ?
-              <FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faMoon} />
+              <div className='theme-toggle-container'><FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faMoon} /></div>
             :
-              <FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faSun} />
+              <div className='theme-toggle-container'><FontAwesomeIcon className='theme-toggle-btn' onClick={handleClick} icon={faSun} /></div>
           }
         </div>
       </div>

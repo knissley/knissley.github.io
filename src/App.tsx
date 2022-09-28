@@ -10,7 +10,7 @@ import ProjectPage from './Projects/ProjectPage';
 interface Props {}
 
 const App:FC<Props> = () => {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   return (
     <div className={`app ${theme}`}>

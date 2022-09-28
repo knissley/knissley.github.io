@@ -64,8 +64,17 @@
   color: #FDFDFD;
 }
 
+.theme-toggle-container {
+  height: 18px;
+  width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .theme-toggle-btn {
-  font-size: 1.2em;
+  height: 18px;
+  width: 18px;
   transition: all 175ms ease;
 }
 
@@ -95,6 +104,6 @@
 .header-btn-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1em;
 }
