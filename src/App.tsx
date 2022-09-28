@@ -6,6 +6,7 @@ import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import HomePage from './HomePage';
 import { Route, Routes } from 'react-router-dom';
 import ProjectPage from './Projects/ProjectPage';
+import NotFoundPage from './Pages/NotFoundPage';
 
 interface Props {}
 
@@ -17,7 +18,7 @@ const App:FC<Props> = () => {
       <Routes>
         <Route path='/portfolio' element={<HomePage theme={theme} setTheme={setTheme} />} />
         <Route path='/portfolio/projects/:id' element={<ProjectPage theme={theme} setTheme={setTheme} />} />
-        <Route path='*' />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
 
       <footer className='footer'>
