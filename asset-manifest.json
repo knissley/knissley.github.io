@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e243c9e4.css",
-    "main.js": "/portfolio/static/js/main.98871760.js",
+    "main.css": "/portfolio/static/css/main.40ab54f9.css",
+    "main.js": "/portfolio/static/js/main.369867f2.js",
     "static/media/dummy-project.jpg": "/portfolio/static/media/dummy-project.eda10ebfb88cf50beff1.jpg",
+    "static/media/dog-meet-dog.png": "/portfolio/static/media/dog-meet-dog.7b1388e32b9d25fd5e4b.png",
     "static/media/HeroImageLarge.png": "/portfolio/static/media/HeroImageLarge.425b49d556831f9f4028.png",
     "static/media/atelier-ecommerce.png": "/portfolio/static/media/atelier-ecommerce.29171517586c4c42cbc1.png",
     "static/media/system-design.png": "/portfolio/static/media/system-design.2d1da16255780edb789f.png",
     "static/media/trail-companions.png": "/portfolio/static/media/trail-companions.06ccea4cf548389d7dd8.png",
-    "static/media/dog-meet-dog.png": "/portfolio/static/media/dog-meet-dog.8c6f1e88f55dcd6832d2.png",
     "index.html": "/portfolio/index.html",
-    "main.e243c9e4.css.map": "/portfolio/static/css/main.e243c9e4.css.map",
-    "main.98871760.js.map": "/portfolio/static/js/main.98871760.js.map"
+    "main.40ab54f9.css.map": "/portfolio/static/css/main.40ab54f9.css.map",
+    "main.369867f2.js.map": "/portfolio/static/js/main.369867f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e243c9e4.css",
-    "static/js/main.98871760.js"
+    "static/css/main.40ab54f9.css",
+    "static/js/main.369867f2.js"
   ]
 }
