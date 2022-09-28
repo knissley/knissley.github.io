@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2f1618a4.css",
-    "main.js": "/portfolio/static/js/main.48c2a77c.js",
+    "main.css": "/portfolio/static/css/main.15a8e491.css",
+    "main.js": "/portfolio/static/js/main.9b63d956.js",
     "static/media/dummy-project.jpg": "/portfolio/static/media/dummy-project.eda10ebfb88cf50beff1.jpg",
     "static/media/dog-meet-dog.png": "/portfolio/static/media/dog-meet-dog.7b1388e32b9d25fd5e4b.png",
     "static/media/HeroImageLarge.png": "/portfolio/static/media/HeroImageLarge.425b49d556831f9f4028.png",
@@ -9,11 +9,11 @@
     "static/media/system-design.png": "/portfolio/static/media/system-design.2d1da16255780edb789f.png",
     "static/media/trail-companions.png": "/portfolio/static/media/trail-companions.06ccea4cf548389d7dd8.png",
     "index.html": "/portfolio/index.html",
-    "main.2f1618a4.css.map": "/portfolio/static/css/main.2f1618a4.css.map",
-    "main.48c2a77c.js.map": "/portfolio/static/js/main.48c2a77c.js.map"
+    "main.15a8e491.css.map": "/portfolio/static/css/main.15a8e491.css.map",
+    "main.9b63d956.js.map": "/portfolio/static/js/main.9b63d956.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f1618a4.css",
-    "static/js/main.48c2a77c.js"
+    "static/css/main.15a8e491.css",
+    "static/js/main.9b63d956.js"
   ]
 }
