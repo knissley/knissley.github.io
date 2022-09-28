@@ -21,3 +21,8 @@
 .work-experience-list {
   padding-left: 1.5em;
 }
+
+h2::after {
+  width: 110%;
+  left: -12px;
+}

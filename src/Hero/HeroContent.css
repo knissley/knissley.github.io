@@ -70,14 +70,14 @@
   width: 50%;
   padding: .8em .25em;
   font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-btn a {
+.hero-btn,
+.hero-btn:visited {
   text-decoration: none;
-  color: #FDFDFD;
-}
-
-.hero-btn a:visited {
   color: #FDFDFD;
 }
 

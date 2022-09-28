@@ -46,9 +46,7 @@ const HeroContent:FC<Props> = () => {
       >
         Recent Hack Reactor grad skilled in the MERN stack, with a passion for mobile development and system design.
       </motion.p>
-      <button className='btn hero-btn'>
-        <a href="#my-work">See My Work</a>
-      </button>
+      <a className='btn hero-btn' href="#my-work">See My Work</a>
     </div>
   )
 };
