@@ -14,6 +14,11 @@ body {
   overflow-x: hidden;
 }
 
+body span,
+body p {
+  line-height: 200%;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;

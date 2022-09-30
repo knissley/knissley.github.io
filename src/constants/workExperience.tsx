@@ -22,7 +22,7 @@ const workExperience: Job[] = [
     company: 'SponsorUnited',
     startDate: 'October 2019',
     endDate: 'February 2022',
-    description: ['I joined SponsorUnited as an intern in college, and just over a year later I was promoted to the highest position within the operations department where I:'],
+    description: ['I joined SponsorUnited as an intern in college, and just over a year later I was promoted to the highest position within the operations department.'],
     bulletPoints: ['Managed a team of 15+ members across the West Coast', 'Organized 100+ data-collection projects', 'Assisted in leading a company-wide training program'],
   },
 ];

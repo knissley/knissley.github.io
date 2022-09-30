@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 import Hero from './Hero/Hero';
 import Projects from './Projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
@@ -10,6 +10,10 @@ interface Props {
 };
 
 const HomePage:FC<Props> = ({ theme, setTheme }) => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
 
   return (
     <>

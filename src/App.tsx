@@ -22,7 +22,7 @@ const App:FC<Props> = () => {
       </Routes>
 
       <footer className='footer'>
-        <span>Kyle Nissley <FontAwesomeIcon style={{fontSize: '.9rem'}} icon={faCopyright} /> 2022</span>
+        <span>Kyle Nissley <FontAwesomeIcon icon={faCopyright} /> 2022</span>
       </footer>
     </div>
   );

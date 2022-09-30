@@ -1,6 +1,8 @@
 import React, { FC } from 'react';
 import WorkExperience from './WorkExperience';
 import './AboutMe.css';
+import { ReactComponent as CodingSVG } from '../assets/coding_purple.svg';
+import { ReactComponent as GamingSVG } from '../assets/gaming_purple.svg';
 
 interface Props {};
 
@@ -16,6 +18,8 @@ const AboutMe:FC<Props> = () => {
       <WorkExperience />
       <h3>Let's get in touch</h3>
       <a className='btn about-me-btn' href='mailto:knissley97@gmail.com'>Contact Me</a>
+      <CodingSVG className='extra-svg coding-svg' />
+      <GamingSVG className='extra-svg gaming-svg' />
     </div>
   )
 };

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import projects from '../constants/projectsInfo';
 import './ProjectPage.css';
@@ -16,11 +16,11 @@ type ProjectPageParams = {
 const ProjectPage:FC<Props> = ({theme, setTheme}) => {
   let { id:projectId } = useParams<ProjectPageParams>();
 
-  console.log(projectId);
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
 
   const project = projects.find((project) => project.id === Number(projectId)) || projects[0];
-
-  console.log(project);
 
   return (
     <>

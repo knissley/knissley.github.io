@@ -46,7 +46,7 @@
 .hero-socials-container {
   display: flex;
   gap: .6em;
-  margin-top: .8em;
+  margin-top: 0;
 }
 
 .hero-socials-container a,
