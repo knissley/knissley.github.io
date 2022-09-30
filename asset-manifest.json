@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ff284b52.css",
-    "main.js": "/portfolio/static/js/main.9b63d956.js",
+    "main.css": "/portfolio/static/css/main.6c7b868f.css",
+    "main.js": "/portfolio/static/js/main.fda4b898.js",
     "static/media/dummy-project.jpg": "/portfolio/static/media/dummy-project.eda10ebfb88cf50beff1.jpg",
     "static/media/dog-meet-dog.png": "/portfolio/static/media/dog-meet-dog.7b1388e32b9d25fd5e4b.png",
     "static/media/HeroImageLarge.png": "/portfolio/static/media/HeroImageLarge.425b49d556831f9f4028.png",
     "static/media/atelier-ecommerce.png": "/portfolio/static/media/atelier-ecommerce.29171517586c4c42cbc1.png",
     "static/media/system-design.png": "/portfolio/static/media/system-design.2d1da16255780edb789f.png",
     "static/media/trail-companions.png": "/portfolio/static/media/trail-companions.06ccea4cf548389d7dd8.png",
+    "static/media/coding_purple.svg": "/portfolio/static/media/coding_purple.a08f58a859c0249ed44b657b9de811cb.svg",
+    "static/media/gaming_purple.svg": "/portfolio/static/media/gaming_purple.91b56dd62ffe413761043e3fd98808d8.svg",
     "index.html": "/portfolio/index.html",
-    "main.ff284b52.css.map": "/portfolio/static/css/main.ff284b52.css.map",
-    "main.9b63d956.js.map": "/portfolio/static/js/main.9b63d956.js.map"
+    "main.6c7b868f.css.map": "/portfolio/static/css/main.6c7b868f.css.map",
+    "main.fda4b898.js.map": "/portfolio/static/js/main.fda4b898.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff284b52.css",
-    "static/js/main.9b63d956.js"
+    "static/css/main.6c7b868f.css",
+    "static/js/main.fda4b898.js"
   ]
 }
