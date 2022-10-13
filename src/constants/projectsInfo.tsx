@@ -30,7 +30,7 @@ const projects:project[] = [
   {
     id: 3,
     title: 'DogMeetDog',
-    description: 'Devloped within a 4-day coding challenge, DogMeetDog is a React Native app intended to help dog owners find playdates for their dogs.',
+    description: 'Developed within a 4-day coding challenge, DogMeetDog is a React Native app intended to help dog owners find playdates for their dogs.',
     longDescription: ['When I was first learning to code, the number one thing that got me excited was creating applications my friends and family could use, and DogMeetDog is a perfect example of that. At the start of my coding journey, one of my closest friends had the fun idea of a mobile application that could help her find playdates for her dog with other nearby dog owners. I immediately started making notes of all the features the app could have, and drew up a Figma design of how it would look.', 'At that time I didn\'t have the skills to build a mobile application, but fast forward just a month and a half into my time at Hack Reactor and we had a challenge sprint to create the MVP of an application in just 4 days. I had zero experience with mobile development at that point, but I knew I had to bring DogMeetDog to life and I took on the challenge.', 'Learning React Native and Expo in only a couple of days proved to be a big challenge, but I began to fall in love with mobile development and all the little differences compared to web development. This project inspired me to create more React Native applications and even dive into another mobile framework, Flutter.'],
     images: [DogMeetDogImage],
     imageOrientation: 'portrait',
